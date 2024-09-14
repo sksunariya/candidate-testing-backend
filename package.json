@@ -1,0 +1,21 @@
+{
+  "name": "candidate-testing-backend",
+  "version": "1.0.0",
+  "description": "This project is a full-stack web application designed to manage user profiles, tests, questions, and associated data like groups, tags, and answers. The system allows users to:\r - Create and manage user profiles.\r - Create and assign tests to users.\r - Manage groups and assign profiles and tests to groups.\r - Manage questions and associate them with tests.\r - Store answers for tests and evaluate their correctness.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.2"
+  }
+}
